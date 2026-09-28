@@ -31,4 +31,9 @@ class Question
   def to_s
     "#{prompt} (#{answer})"
   end
+
+  def hint
+    @answer[0]
+  end
+
 end
